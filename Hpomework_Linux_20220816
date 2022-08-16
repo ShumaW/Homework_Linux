@@ -1,0 +1,7 @@
+   0 mkdir temp
+   1 echo "Hello student" > temp/student.txt
+   2 cat /etc/group >> temp/student.txt
+   3 df -h >> temp/student.txt
+   4 history wc -l >> temp/student.txt
+   5 cat temp/student.txt
+   6 history > /tmp/history.txt
